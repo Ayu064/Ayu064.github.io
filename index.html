@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayu 的导航站</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .nav-card { transition: all .2s; }
+  .nav-card:hover { transform: translateY(-4px); }
+</style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen">
+
+<header class="max-w-4xl mx-auto px-6 pt-16 pb-10 text-center">
+  <div class="w-20 h-20 mx-auto mb-5 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-3xl">👋</div>
+  <h1 class="text-3xl font-bold mb-2">Ayu 的小站</h1>
+  <p class="text-gray-400">数码 · 播客 · 工具箱，一个都不能少</p>
+</header>
+
+<main class="max-w-4xl mx-auto px-6 pb-16">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+    <a href="https://tv.ayuyyds.dpdns.org" class="nav-card bg-gray-800/50 rounded-2xl p-6 backdrop-blur block">
+      <div class="text-4xl mb-3">🎬</div>
+      <h2 class="font-semibold text-lg mb-1">LibreTV 影视</h2>
+      <p class="text-gray-400 text-sm">免费在线追剧看电影，聚合多源搜索</p>
+    </a>
+
+    <a href="https://podcast.ayuyyds.dpdns.org" class="nav-card bg-gray-800/50 rounded-2xl p-6 backdrop-blur block">
+      <div class="text-4xl mb-3">🎙</div>
+      <h2 class="font-semibold text-lg mb-1">MyX 播客</h2>
+      <p class="text-gray-400 text-sm">数码、生活、副业闲聊音频节目</p>
+    </a>
+
+    <a href="https://tools.ayuyyds.dpdns.org" class="nav-card bg-gray-800/50 rounded-2xl p-6 backdrop-blur block">
+      <div class="text-4xl mb-3">🧰</div>
+      <h2 class="font-semibold text-lg mb-1">MyX 工具箱</h2>
+      <p class="text-gray-400 text-sm">密码生成、JSON、二维码、时间戳等</p>
+    </a>
+
+  </div>
+
+  <div class="mt-12 text-center">
+    <p class="text-gray-500 text-sm">更多站点持续更新中... 🔧</p>
+  </div>
+</main>
+
+<footer class="border-t border-gray-800 py-6 text-center text-gray-600 text-sm">
+  © 2026 Ayu · 用 ❤️ 自建
+</footer>
+
+</body>
+</html>
